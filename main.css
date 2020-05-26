@@ -1,0 +1,72 @@
+html, body {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1A5129;
+  padding: 15px;
+  color: #E9E0AC;
+  font-size: 1.5rem;
+}
+
+nav .nav-right a {
+  text-decoration: inherit;
+  color: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#rsvp {
+  padding: 10px 20px;
+  border: 2px solid #E9E0AC;
+}
+
+#rsvp:hover {
+  background-color: #E9E0AC;
+  color: #1A5129;
+}
+
+.hero {
+  width: 100vw;
+  height: 80vh;
+  
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+  color: white;
+  
+  background-image: url("hero-image.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.hero-inner {
+  margin-top: 20vh;
+}
+
+.hero-inner h1 {
+  font-size: 3rem;
+  color: #E9E0AC;
+}
+
+.hero-inner a {
+  text-decoration: inherit;
+  color: #E9E0AC;
+  padding: 10px 20px;
+  border: 2px solid #E9E0AC;
+}
+
+.hero-inner a:hover {
+  background-color: #E9E0AC;
+  color: #1A5129;
+}
