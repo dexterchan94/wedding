@@ -85,6 +85,24 @@ nav .nav-right a:hover {
   color: #1A5129;
 }
 
+.section-title {
+  font-size: 3rem;
+  color: #1A5129;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.subheading {
+  margin: 0;
+}
+
 @media screen and (min-width: 601px) {
   .nav-right {
     display: block !important;
@@ -174,11 +192,6 @@ nav .nav-right a:hover {
   border: 2px solid #1A5129;
 }
 
-#where-section header em {
-  font-size: 3rem;
-  color: #1A5129;
-}
-
 #where-section .article-body {
   display: flex;
   flex-direction: row;
@@ -201,6 +214,10 @@ nav .nav-right a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  #where-section {
+    margin-bottom: 0;
+  }
+
   #where-section .article-body {
     flex-direction: column;
   }
@@ -212,6 +229,56 @@ nav .nav-right a:hover {
 
   #where-section .article-body .article-content {
     width: 90%;
-    margin: 20px auto;
+    margin: 40px;
+    margin-bottom: 0;
   }
+}
+
+#when-section {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0;
+}
+
+#when-section .article-body {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+#when-section .article-body .horizontal-line {
+  width: 20%;
+}
+
+#when-section hr {
+  margin-left: 0;
+  margin-top: 73px;
+  width: 80%;
+  border: 2px solid #1A5129;
+}
+
+#when-section .article-body .article-content {
+  width: 80%;
+}
+
+#when-section aside {
+  width: 50%;
+  background-color: #1A5129;
+}
+
+@media screen and (max-width: 600px) {
+  #when-section {
+    flex-direction: column;
+  }
+
+  #when-section .article-body {
+    width: 100%;
+  }
+
+  #when-section aside {
+    width: 100%;
+    height: 500px;
+    margin: 40px 0;
+  }
+
 }
