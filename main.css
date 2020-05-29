@@ -284,10 +284,6 @@ ul {
 }
 
 
-/* #faq-section {
-  display: flex;
-  flex-direction: column;
-} */
 
 #faq-section header {
   display: flex;
@@ -315,4 +311,38 @@ ul {
   #faq-section .section-title {
     width: 95%;
   }
+}
+
+
+#rsvp-section {
+  text-align: center;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  background-color: #1A5129;
+  color: #E9E0AC;
+}
+
+#rsvp-section header {
+  display: flex;
+  flex-direction: row;
+}
+
+#rsvp-section .horizontal-line {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+#rsvp-section .horizontal-line hr {
+  width: 90%;
+  margin-left: 0;
+  border: 2px solid #E9E0AC;
+}
+
+#rsvp-section .section-title {
+  color: #E9E0AC;
+}
+
+#rsvp-section .article-body iframe {
+  width: 90%;
 }
