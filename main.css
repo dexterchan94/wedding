@@ -282,3 +282,37 @@ ul {
   }
 
 }
+
+
+/* #faq-section {
+  display: flex;
+  flex-direction: column;
+} */
+
+#faq-section header {
+  display: flex;
+  flex-direction: row;
+}
+
+#faq-section .empty-space {
+  width: 20%;
+}
+
+#faq-section .section-title {
+  border-bottom: 4px solid #1A5129;
+  width: 80%;
+}
+
+#faq-section .article-body {
+  margin: 0 10%;
+}
+
+@media screen and (max-width: 600px) {
+  #faq-section .empty-space {
+    width: 5%;
+  }
+
+  #faq-section .section-title {
+    width: 95%;
+  }
+}
