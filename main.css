@@ -116,6 +116,7 @@ ul {
 
 .subheading {
   margin: 0;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 701px) {
