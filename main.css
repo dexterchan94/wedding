@@ -118,7 +118,13 @@ ul {
 	font-weight: bold;
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (max-width: 700px) {
+	.nav-right {
+		display: none;
+	}
+}
+
+/* @media screen and (min-width: 701px) {
 	.nav-right {
 		display: block !important;
 	}
@@ -170,7 +176,7 @@ ul {
 		background-color: #e9e0ac;
 		color: #1a5128;
 	}
-}
+} */
 
 #info {
 	display: flex;
