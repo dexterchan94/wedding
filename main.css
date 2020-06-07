@@ -1,6 +1,7 @@
 html,
 body {
 	box-sizing: border-box;
+	line-height: 1.8rem;
 }
 
 body {
@@ -119,9 +120,17 @@ ul {
 	font-weight: bold;
 }
 
+hr {
+	color: #1a5128;
+}
+
 @media screen and (max-width: 750px) {
 	.nav-right {
 		display: none;
+	}
+
+	.nav-left {
+		margin: 0 auto;
 	}
 }
 
@@ -223,8 +232,9 @@ ul {
 	width: 50%;
 	text-align: center;
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 }
 
 #where-section .article-body .map img {
@@ -234,6 +244,8 @@ ul {
 }
 
 #where-section .article-content hr {
+	/* border-left: 1px solid #1a5128; */
+	/* border-right: 1px solid #1a5128; */
 	border: none;
 	border-top: 2px solid #1a5128;
 	border-bottom: 2px solid #1a5128;
@@ -263,7 +275,7 @@ ul {
 	}
 
 	#where-section .article-body .map {
-		height: 80vh;
+		/* height: 80vh; */
 		width: 100%;
 		margin: 0 auto;
 	}
@@ -274,7 +286,8 @@ ul {
 
 	#where-section .article-body .article-content {
 		width: 90%;
-		margin: 40px;
+		margin-left: 10%;
+		margin-top: 40px;
 		margin-bottom: 0;
 	}
 }
@@ -345,17 +358,17 @@ ul {
 
 @media screen and (max-width: 750px) {
 	#when-section div:first-child {
-		width: 30%;
+		width: 40%;
 		text-align: right;
 	}
 
 	#when-section .horizontal-line {
-		width: 70%;
+		width: 60%;
 	}
 
 	#when-section .article-body .schedule-item {
-		width: 80%;
-		margin: 20px 10%;
+		width: 90%;
+		margin: 20px 5%;
 	}
 }
 
@@ -373,8 +386,11 @@ ul {
 }
 
 #faq-section .section-title {
+	line-height: 4rem;
 	border-bottom: 4px solid #1a5128;
 	width: 80%;
+	padding-right: 10px;
+	margin-left: 20px;
 }
 
 #faq-section .article-body {
@@ -410,6 +426,12 @@ ul {
 	background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 750px) {
+	#rsvp-section {
+		background-position: left;
+	}
+}
+
 #rsvp-section .section-title {
 	color: #1a5128;
 }
@@ -441,7 +463,7 @@ ul {
 	font-family: 'Avenir', sans-serif;
 	text-align: center;
 	color: white;
-	height: 100px;
+	height: 150px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
