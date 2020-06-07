@@ -233,8 +233,11 @@ ul {
 }
 
 #where-section .article-content hr {
+	border: none;
+	border-top: 2px solid #1a5128;
+	border-bottom: 2px solid #1a5128;
 	width: 100%;
-	margin: 30px 0 30px 0;
+	margin: 30px 0;
 }
 
 #where-section .article-body h2 {
@@ -392,12 +395,23 @@ ul {
 	}
 }
 
+/* ======================= RSVP SECTION ======================= */
+
 #rsvp-section {
 	text-align: center;
 	padding-bottom: 40px;
 	margin-top: 40px;
-	background-color: #1a5128;
-	color: #e9e0ac;
+	background-color: #e9e0ac;
+	/* background-color: #1a5128; */
+	/* color: #e9e0ac; */
+	background-image: url(rsvp-background.png);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#rsvp-section .section-title {
+	color: #1a5128;
 }
 
 #rsvp-section header {
@@ -414,18 +428,24 @@ ul {
 #rsvp-section .horizontal-line hr {
 	width: 90%;
 	margin-left: 0;
-	border: 2px solid #e9e0ac;
-}
-
-#rsvp-section .section-title {
-	color: #e9e0ac;
+	border: 2px solid #1a5128;
 }
 
 #rsvp-section .article-body iframe {
 	width: 90%;
 }
 
-#rsvp-section footer {
+#footer {
+	background-color: #1a5128;
 	font-family: 'Avenir', sans-serif;
+	text-align: center;
 	color: white;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#footer div {
+	margin: 0 20px;
 }
