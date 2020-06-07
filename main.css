@@ -266,6 +266,10 @@ hr {
 	width: 50%;
 }
 
+#where-section .about-the-venue a {
+	color: inherit;
+}
+
 @media screen and (max-width: 750px) {
 	#where-section {
 		margin-bottom: 0;
