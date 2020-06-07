@@ -14,7 +14,7 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 40px;
 	color: #1a5128;
 	font-size: 1.3rem;
 	line-height: 2rem;
@@ -28,7 +28,7 @@ nav .nav-left {
 nav .nav-right a {
 	text-decoration: inherit;
 	color: inherit;
-	margin: 0 10px;
+	margin: 0 15px;
 	border-bottom: 2px solid transparent;
 	transition: border-bottom 0.5s;
 }
@@ -70,11 +70,11 @@ nav .nav-right a:hover {
 }
 
 .hero-inner {
-	margin-top: 15vh;
+	margin-top: 12vh;
 }
 
 .hero-inner h1 {
-	font-size: 3rem;
+	font-size: 3.6rem;
 	font-weight: 400;
 }
 
@@ -83,12 +83,13 @@ nav .nav-right a:hover {
 }
 
 .hero-inner a {
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 	text-decoration: inherit;
-	padding: 10px 30px;
+	padding: 15px 35px;
 	background-color: #1a5128;
 	border-radius: 12px;
 	color: #e9e0ac;
+	font-weight: 500;
 }
 
 .hero-inner a:hover {
@@ -118,7 +119,7 @@ ul {
 	font-weight: bold;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 	.nav-right {
 		display: none;
 	}
@@ -130,7 +131,7 @@ ul {
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 	.nav-right {
 		display: none;
 	}
@@ -252,7 +253,7 @@ ul {
 	width: 50%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 	#where-section {
 		margin-bottom: 0;
 	}
@@ -342,7 +343,7 @@ ul {
 	font-size: 1.4rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 	#when-section div:first-child {
 		width: 30%;
 		text-align: right;
@@ -385,7 +386,7 @@ ul {
 	margin: 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 	#faq-section .empty-space {
 		width: 5%;
 	}
