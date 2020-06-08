@@ -70,6 +70,12 @@ nav .nav-right a:hover {
 	background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 1500px) {
+	.hero {
+		height: 70vh;
+	}
+}
+
 .hero-inner {
 	margin-top: 12vh;
 }
